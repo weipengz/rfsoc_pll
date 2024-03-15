@@ -1,0 +1,17 @@
+APP = prg-pll
+APPSOURCES= alpaca_i2c_utils.c alpaca_rfclks.c alpaca_htg_rfclks.c
+OUTS = /home/casper/pll/prg_rfpll
+SRCS = ../alpaca_i2c_utils.c ../alpaca_rfclks.c alpaca_htg_rfclks.c
+INCLUDES = -I../
+LIBDIR =
+PLATFORM = -DPLATFORM=1
+OBJS =
+
+%.o: %.c
+	$(CC) ${LDFLAGS} ${BOARD_FLAG} $(INCLUDES) ${CFLAGS} -c $(APPSOURCES)
+
+all: $(OBJS)
+	$(CC) ${LDFLAGS} $(INCLUDES) $(LIBDIR) $(OBJS) $(PLATFORM) $(SRCS) -o $(OUTS)
+
+clean:
+	rm -rf $(OUTS) *.o
