@@ -1,0 +1,1 @@
+This is the repo for building software tools for programing the lmk and lmx clock devices for Xilinx RFSoC board. The supported boards are HTG-ZRF16, ZCU216, ZCU208, ZCU111, RFSoC2x2, and RFSoC4x2. This code is based on the casper image.
