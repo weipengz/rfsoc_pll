@@ -1,6 +1,6 @@
 APP = reset-pll
 APPSOURCES= alpaca_i2c_utils.c alpaca_rfclks.c reset_rfpll.c 
-OUTS = home/casper/pll/reset_pll
+OUTS = /home/casper/pll/zrf16/reset_pll
 SRCS = ../alpaca_i2c_utils.c ../alpaca_rfclks.c reset_rfpll.c
 INCLUDES = -I../
 LIBDIR =

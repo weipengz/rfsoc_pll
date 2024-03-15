@@ -1,6 +1,6 @@
 APP = htg-probe-qsfp28
 APPSOURCES= alpaca_i2c_utils.c htg_probe_qsfp28.c
-OUTS = /srv/tftpboot/nfs/zrf16/conf/home/casper/bin/htg_probe_qsfp28
+OUTS = /home/casper/pll/zrf16/htg_probe_qsfp28
 SRCS = ../alpaca_i2c_utils.c htg_probe_qsfp28.c
 INCLUDES = -I../
 LIBDIR =

@@ -1,6 +1,6 @@
 APP = phy-clk-zrf16
 APPSOURCES= alpaca_i2c_utils.c si534x.c
-OUTS = /srv/tftpboot/nfs/zrf16/conf/home/casper/bin/prg_si5341_phyclk
+OUTS = /home/casper/pll/zrf16/prg_si5341_phyclk
 SRCS = ../alpaca_i2c_utils.c si534x.c
 INCLUDES = -I../
 LIBDIR =

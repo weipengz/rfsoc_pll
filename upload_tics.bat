@@ -1,0 +1,1 @@
+scp -r ..\rfsoc_pll\zrf16\zrf16* casper@192.168.50.64:~/pll/zrf16/

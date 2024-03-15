@@ -1,6 +1,6 @@
 APP = prg-pll
 APPSOURCES= alpaca_i2c_utils.c alpaca_rfclks.c alpaca_htg_rfclks.c
-OUTS = /home/casper/pll/prg_rfpll
+OUTS = /home/casper/pll/zrf16/prg_rfpll
 SRCS = ../alpaca_i2c_utils.c ../alpaca_rfclks.c alpaca_htg_rfclks.c
 INCLUDES = -I../
 LIBDIR =
